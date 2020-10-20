@@ -6,3 +6,22 @@ class BasicTest(TestCase):
     def test_basic_case(self):
         print("here goes")
         self.assertTrue(True, "This shouldn't ever fail")
+
+
+# Create your tests here.
+class BasicTestTwo(TestCase):
+    def test_basic_case(self):
+        print("here goes")
+        self.assertTrue(True, "This shouldn't ever fail")
+
+
+class BasicTestThree(TestCase):
+    def test_basic_case(self):
+        print("here goes")
+        self.assertTrue(True, "This shouldn't ever fail")
+
+
+class BasicTestFour(TestCase):
+    def test_basic_case(self):
+        print("here goes")
+        self.assertTrue(True, "This shouldn't ever fail")
